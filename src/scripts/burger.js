@@ -11,7 +11,7 @@ burger.addEventListener('click', () => {
         iconsNav.style.bottom ='0%'
     } else {
         navUl.style.left ='-100%'
-        iconsNav.style.bottom ='-10%'
+        iconsNav.style.bottom ='-110%'
     }
 
 

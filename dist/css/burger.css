@@ -1,7 +1,7 @@
 #nav-icon1{
     overflow: visible;
-    width: 48px;
-    height: 60%;
+    width: 37px;
+    height: 45%;
     position: relative;
 
     margin-right: 1em;
@@ -40,11 +40,11 @@
   }
   
   #nav-icon1 span:nth-child(2) {
-    top: 18px;
+    top: 15px;
   }
   
   #nav-icon1 span:nth-child(3) {
-    top: 36px;
+    top: 30px;
   }
   
   #nav-icon1.open span:nth-child(1) {
