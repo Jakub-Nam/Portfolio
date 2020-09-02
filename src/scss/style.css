@@ -141,6 +141,8 @@ main {
 .main__section-1 {
   margin: 10% auto 0 auto;
   width: 90%;
+  height: 100vh;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,58 +150,46 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
-  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main__section-1 .section-1__first-guy-wrapper {
   position: relative;
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 7vh;
-  margin-top: 35vh;
-  height: 90%;
-  width: 100%;
+  overflow: visible;
 }
 
-.main__section-1 .section-1__first-guy-wrapper div {
-  width: 40%;
+.main__section-1 .section-1__first-guy-wrapper img {
+  margin-left: 30vh;
 }
 
-.main__section-1 .section-1__first-guy-wrapper div img {
-  width: 100%;
-}
-
-.main__section-1 .first-guy__text-wrapper {
+.main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
   position: absolute;
-  background-image: url("/images/cloud-1.PNG");
+  background-image: url("/images/cloud-clear-3.PNG");
   background-size: 100%;
   background-repeat: no-repeat;
-  top: 30vh;
-  font-size: 0.8em;
-  width: 16em;
-  height: 100%;
+  top: -20vh;
+  right: 0px;
+  font-size: 17px;
+  width: 23em;
+  height: 110%;
   text-align: center;
 }
 
-.main__section-1 .first-guy__text-wrapper .first-guy__text {
-  padding: 2.5em 3em;
+.main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper p {
+  padding: 4.5em 5em 0em 7em;
 }
 
 .main__section-1 .section-1__earth-wrapper {
-  display: none;
-  width: 30%;
+  margin-top: -17vh;
 }
 
 .main__section-1 .section-1__earth-wrapper img {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  width: 100%;
+  width: 65%;
 }
 
 .main__section-2 {
@@ -226,16 +216,14 @@ main {
 }
 
 .main__section-2 .section-2__wrapper .project-bubble-wrapper {
-  height: 40%;
-  width: 70%;
+  background-image: url("/images/cloud-Kar-Moto.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15em;
+  height: 110%;
   position: absolute;
   left: 27%;
   top: 10%;
-}
-
-.main__section-2 .section-2__wrapper .project-bubble-wrapper img {
-  height: 100%;
-  width: 100%;
 }
 
 .main__section-2 .section-2__wrapper .project-description-wrapper {
@@ -267,20 +255,20 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 1em;
-  margin-top: -4em;
+  margin-top: -3.5em;
   position: relative;
   z-index: 10;
   margin-bottom: 3em;
 }
 
 .main__section-2 .section-2__wrapper .project-description-wrapper .description-wrapper__buttons button {
-  width: 3.5em;
   color: white;
-  padding: 0.3em;
+  padding: 10px 2em;
   opacity: 0.9;
   border-radius: 5px;
   background-color: #4f1774;
   border: none;
+  font-size: 16px;
 }
 
 .main__section-2 .section-2__wrapper .project-description-wrapper .description-wrapper__buttons .mars-btn {
@@ -325,7 +313,8 @@ main {
 }
 
 .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper .walking-guy__bubble-wrapper {
-  width: 60%;
+  width: 80%;
+  margin: auto;
   border-radius: 3px;
 }
 
@@ -349,6 +338,7 @@ main {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  position: relative;
 }
 
 .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now__img-wrapper {
@@ -359,6 +349,22 @@ main {
 
 .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now__img-wrapper img {
   height: 65%;
+}
+
+.main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__bubble-wrapper {
+  position: absolute;
+  background-image: url("/images/cloud-clear.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 10vh;
+  font-size: 16px;
+  width: 16em;
+  height: 100%;
+  text-align: center;
+}
+
+.main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__bubble-wrapper p {
+  padding: 1.5em 1em 0em 3.5em;
 }
 
 .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__icons-wrapper {
@@ -388,8 +394,9 @@ main {
 }
 
 .main__section-4 {
+  width: 90%;
   margin: auto;
-  height: 160vh;
+  height: 100vh;
 }
 
 .main__section-4 h2 {
@@ -397,38 +404,66 @@ main {
 }
 
 .main__section-4 .section-4__contact {
-  margin-top: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
   margin-right: 10em;
 }
 
+.main__section-4 .section-4__contact .contact__bubble-wrapper {
+  position: absolute;
+  background-image: url("/images/cloud-clear-1.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 3vh;
+  left: 14vh;
+  font-size: 16px;
+  width: 14em;
+  height: 100%;
+  text-align: center;
+  z-index: -10;
+}
+
+.main__section-4 .section-4__contact .contact__bubble-wrapper p {
+  padding: 0.8em 1em 0em 3.5em;
+}
+
 .main__section-4 .section-4__contact .contact__form {
+  width: 60%;
+  margin: 1em auto;
   background: rgba(8, 63, 93, 0.2);
   border-radius: 10px;
   padding: 0.5em 0.5em 0 0.5em;
   text-align: center;
 }
 
+.main__section-4 .section-4__contact .contact__form h3 {
+  padding-bottom: 0.2em;
+}
+
 .main__section-4 .section-4__contact .contact__form .form__email,
 .main__section-4 .section-4__contact .contact__form .form__name {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main__section-4 .section-4__contact .contact__form .form__email input,
 .main__section-4 .section-4__contact .contact__form .form__name input {
+  width: 100%;
   border: none;
-}
-
-.main__section-4 .section-4__contact .contact__form h3 {
-  padding-bottom: 0.2em;
 }
 
 .main__section-4 .section-4__contact .contact__form .form__message {
@@ -438,9 +473,11 @@ main {
 }
 
 .main__section-4 .section-4__contact .contact__form .form__message textarea {
+  margin: auto;
   border: none;
   height: 10em;
   width: 100%;
+  font-size: 12px;
 }
 
 .main__section-4 .section-4__contact .contact__form .form__submit {
@@ -451,7 +488,7 @@ main {
 .main__section-4 .section-4__contact .contact__form .form__submit input {
   border: none;
   padding: 0.3em;
-  font-size: 0.8em;
+  font-size: 14px;
   border-radius: 8px;
   background: white;
   color: #050505;
