@@ -23,6 +23,12 @@
   .nav__div-wrapper h1 {
     padding: 0 1em;
     text-align: center; }
+  .nav__div-wrapper .nav__burger-wrapper {
+    height: 100%;
+    display: flex;
+    width: 20%;
+    padding-top: 1.2em;
+    justify-content: center; }
   .nav__div-wrapper .nav__ul {
     display: flex;
     position: absolute;
@@ -105,7 +111,7 @@ main {
       margin-left: 30vh; }
     .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
       position: absolute;
-      background-image: url("/images/cloud-clear-3.PNG");
+      background-image: url("/images/cloud-clear-3.png");
       background-size: 100%;
       background-repeat: no-repeat;
       top: -20vh;
@@ -136,7 +142,7 @@ main {
       overflow: visible; }
       .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
         position: absolute;
-        background-image: url("/images/cloud-clear-1.PNG");
+        background-image: url("/images/cloud-clear-1.png");
         background-size: 100%;
         background-repeat: no-repeat;
         top: 5vh;
@@ -149,7 +155,7 @@ main {
           padding: 1.8em 0em 0em 3.8em; }
       .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
         position: absolute;
-        background-image: url("/images/cloud-clear-1.PNG");
+        background-image: url("/images/cloud-clear-1.png");
         background-size: 100%;
         background-repeat: no-repeat;
         top: 5vh;
@@ -228,7 +234,7 @@ main {
     .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
       position: absolute;
       z-index: -10;
-      background-image: url("/images/cloud-clear-1.PNG");
+      background-image: url("/images/cloud-clear-1.png");
       background-size: 100%;
       background-repeat: no-repeat;
       top: 0vh;
@@ -255,7 +261,7 @@ main {
       margin-right: 10em; }
     .main__section-4 .section-4__contact .contact__bubble-wrapper {
       position: absolute;
-      background-image: url("/images/cloud-clear-1.PNG");
+      background-image: url("/images/cloud-clear-1.png");
       background-size: 100%;
       background-repeat: no-repeat;
       top: 3vh;
