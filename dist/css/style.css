@@ -111,7 +111,7 @@ main {
       margin-left: 30vh; }
     .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
       position: absolute;
-      background: url(/images/cloud-clear-3.png);
+      background: url(./images/cloud-clear-3.png);
       background-size: 100%;
       background-repeat: no-repeat;
       top: -20vh;
@@ -142,7 +142,7 @@ main {
       overflow: visible; }
       .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
         position: absolute;
-        background-image: url("/images/cloud-clear-1.png");
+        background-image: url("./images/cloud-clear-1.png");
         background-size: 100%;
         background-repeat: no-repeat;
         top: 5vh;
@@ -155,7 +155,7 @@ main {
           padding: 1.8em 0em 0em 3.8em; }
       .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
         position: absolute;
-        background-image: url("/images/cloud-clear-1.png");
+        background-image: url("./images/cloud-clear-1.png");
         background-size: 100%;
         background-repeat: no-repeat;
         top: 5vh;
@@ -338,5 +338,5 @@ footer {
     footer address .address__text p {
       overflow: visible; }
   footer span {
-    font-size: 11px;
+    font-size: 12px;
     overflow: visible; }
