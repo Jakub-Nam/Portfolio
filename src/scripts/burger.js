@@ -1,5 +1,5 @@
 
-const burger = document.querySelector('#nav-icon1');
+const burger = document.querySelector('#nav-icon');
 const navUl = document.querySelector('.nav__ul')
 const iconsNav = document.querySelector('.nav__icons-wrapper')
 burger.addEventListener('click', () => {

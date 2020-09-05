@@ -22,13 +22,12 @@
   border-radius: 3px; }
   .nav__div-wrapper h1 {
     padding: 0 1em;
-    margin: 0.75rem 0;
     text-align: center; }
   .nav__div-wrapper .nav__ul {
     display: flex;
     position: absolute;
     flex-direction: column;
-    background: rgba(255, 253, 253, 0.9);
+    background: rgba(255, 253, 253, 0.95);
     width: 100%;
     height: 90vh;
     left: -100%;
@@ -76,7 +75,10 @@
   .nav__icons-wrapper a {
     text-decoration: none;
     color: black;
-    padding: 0.7em 2em; }
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em; }
 
 body {
   height: 100%;
@@ -273,7 +275,7 @@ main {
       padding: 0.5em 0.5em 0 0.5em;
       text-align: center; }
       .main__section-4 .section-4__contact .contact__form h3 {
-        padding-bottom: 0.2em; }
+        padding-bottom: 0.5em; }
       .main__section-4 .section-4__contact .contact__form .form__email,
       .main__section-4 .section-4__contact .contact__form .form__name {
         margin-bottom: 0.7em;
@@ -300,8 +302,35 @@ main {
           border-radius: 8px;
           background: white;
           color: #050505;
-          border-bottom: 1.5px solid #df363a; }
+          border-bottom: 2px solid #df363a; }
 
 input,
 textarea {
   padding-left: 0.3em; }
+
+footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(8, 63, 93, 0.15);
+  font-size: 15px; }
+  footer .footer__p-wrapper p {
+    margin-top: 1em; }
+  footer hr {
+    border: solid 0.1px #df363a;
+    width: 80%;
+    margin: 1em auto 0em auto; }
+  footer address .address__text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    align-items: center;
+    justify-content: center; }
+    footer address .address__text i {
+      overflow: visible;
+      padding-right: 13px; }
+    footer address .address__text p {
+      overflow: visible; }
+  footer span {
+    font-size: 11px;
+    overflow: visible; }

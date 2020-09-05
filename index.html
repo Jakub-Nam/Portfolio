@@ -16,7 +16,7 @@
                 <div>
                     <h1>Portfolio</h1>
                 </div>
-                <div id="nav-icon1">
+                <div id="nav-icon">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -29,8 +29,6 @@
                     <hr />
                 </ul>
             </div>
-
-
             <div class='nav__icons-wrapper'>
                 <a href="">
                     <i class="fab fa-github fa-2x"></i>
@@ -105,7 +103,7 @@
                     <p>I started my adventure with programming a year ago, since then I have been trying to expand
                         my knowledge every day!
                         <br>
-                        <br>I am a veterinarian by profession, and during my studies I was a
+                        <br>I am a veterinarian by profession and during my studies I was a
                         leader of many scientific projects, which allowed
                         me to develop management skills and work in a group.
                     </p>
@@ -114,19 +112,19 @@
                     <img src='./images/walking-guy.PNG'>
                     <div class="icons-wrapper">
                         <!-- <div class='get-to-now-guy__icons'> -->
-                            <div class="icons">
-                                <img src="./images/github.png" alt="running-guy">
-                            </div>
-                            <div class="icons">
-                                <img src="./images/linkedIn.png" alt="running-guy">
-                            </div>
+                        <div class="icons">
+                            <img src="./images/github.png" alt="running-guy">
+                        </div>
+                        <div class="icons">
+                            <img src="./images/linkedIn.png" alt="running-guy">
+                        </div>
                         <!-- </div> -->
                     </div>
                     <div class="walking-guy-bubble-wrapper">
                         <p>If you want to know more about me just check my profile on github or linkedin</p>
                     </div>
                 </div>
-        </section> 
+        </section>
         <section class="main__section-4">
             <h2>Contact Me</h2>
             <div class="section-4__contact">
@@ -142,30 +140,48 @@
                 <div class="contact__form">
                     <form>
                         <h3>Message</h3>
-                         <!-- <label for="email">Get in Touch</label> -->
-                <div class="form__name">
-                    <input type="text" id="name" name="name" placeholder="Name">
+                        <!-- <label for="email">Get in Touch</label> -->
+                        <div class="form__name">
+                            <input type="text" id="name" name="name" placeholder="Name">
+                        </div>
+                        <div class="form__email">
+                            <input type="text" id="email" name="email" placeholder="Email adress">
+                        </div>
+                        <div class="form__message">
+                            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+                        </div>
+                        <div class="form__submit">
+                            <input type="submit" value="Submit">
+                        </div>
+
+                    </form>
                 </div>
-                <div class="form__email">
-                    <input type="text" id="email" name="email" placeholder="Email adress">
-                </div>
-                <div class="form__message">
-                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-                </div>
-                <div class="form__submit">
-                    <input type="submit" value="Submit">
-                </div>
-
-                </form>
-
-
-            </div>
-
-
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer__p-wrapper">
+            <p>Jakub Namysł
+                <br> Junior Frontend Developer
+            </p>
+        </div>
+        <hr>
+        <address>
+            <div class="address__text">
+                <i class="fas fa-phone-alt fa-lg"></i>
+                <p>+48 793 742 300</p>
+            </div>
+            <div class="address__text">
+                <i class="far fa-envelope fa-lg"></i>
+                <p>kubanam@@mail.com</p>
+            </div>
+            <div class="address__text">
+                <span>Jakub Namysł - 2020 - All rights reserved</span>
+            </div>
+        </address>
+        
+    </footer>
 </body>
 <script src="./src/scripts/app.js"></script>
 <script src="./src/scripts/burger.js"></script>
