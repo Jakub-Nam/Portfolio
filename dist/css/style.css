@@ -144,7 +144,7 @@ main {
         width: 10em;
         margin: 1em; }
         .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper p {
-          padding: 2em 0em 0em 3.8em; }
+          padding: 1.8em 0em 0em 3.8em; }
       .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
         position: absolute;
         background-image: url("/images/cloud-clear-1.PNG");
@@ -193,69 +193,55 @@ main {
 .main__section-3 {
   width: 90%;
   margin: auto;
-  height: 100vh; }
+  height: 90vh; }
   .main__section-3 .section-3__wrapper h2 {
     text-align: center; }
-  .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper {
-    margin-top: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper .walking-guy__img-wrapper {
-      display: flex;
-      width: 40%; }
-      .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper .walking-guy__img-wrapper img {
-        height: 75%;
-        width: 100%;
-        margin-top: 3em; }
-    .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper .walking-guy__text-wrapper {
-      width: 80%;
-      margin: auto;
-      border-radius: 3px; }
-      .main__section-3 .section-3__wrapper .section-3__walking-guy-wrapper .walking-guy__text-wrapper p {
-        box-shadow: 10px 0.5px 25px -19px #073f5d;
-        border-radius: 1px;
-        text-align: center;
-        width: 100%;
-        font-size: 0.9em;
-        padding: 0.7em; }
-  .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: relative; }
-    .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now__img-wrapper {
-      display: flex; }
-      .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now__img-wrapper img {
-        height: 65%; }
-    .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__bubble-wrapper {
-      position: absolute;
-      background-image: url("/images/cloud-clear.PNG");
-      background-size: 100%;
-      background-repeat: no-repeat;
-      top: 10vh;
-      font-size: 16px;
-      width: 16em;
-      height: 100%;
-      text-align: center; }
-      .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__bubble-wrapper p {
-        padding: 1.5em 1em 0em 3.5em; }
-    .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .get-to-now-guy__icons-wrapper {
+  .main__section-3 .section-3__wrapper .text-wrapper p {
+    box-shadow: 10px 0.5px 25px -19px #073f5d;
+    border-radius: 1px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 0.7em; }
+  .main__section-3 .section-3__wrapper .walking-guy-wrapper {
+    position: relative;
+    overflow: visible;
+    display: flex; }
+    .main__section-3 .section-3__wrapper .walking-guy-wrapper img {
+      height: 35%;
+      position: relative;
+      margin-left: -1em; }
+    .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: flex-end; }
-    .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .icon {
-      width: 100%;
-      padding: 1em; }
-      .main__section-3 .section-3__wrapper .section-3__get-to-now-guy-wrapper .icon img {
-        width: 48px;
-        height: 48px; }
+      .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
+        width: 100%;
+        padding: 20px;
+        border-radius: 7px; }
+        .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons img {
+          width: 40px;
+          height: 40px; }
+    .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+      position: absolute;
+      z-index: -10;
+      background-image: url("/images/cloud-clear-1.PNG");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: 0vh;
+      left: 12vh;
+      height: 100%;
+      width: 13.3rem; }
+      .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper p {
+        font-size: 15;
+        padding: 0.8em 0em 0em 3.8em; }
 
 .main__section-4 {
   width: 90%;
   margin: auto;
-  height: 100vh; }
+  height: 100vh;
+  margin-top: 56px; }
   .main__section-4 h2 {
     text-align: center; }
   .main__section-4 .section-4__contact {
