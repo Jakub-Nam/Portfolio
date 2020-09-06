@@ -1,0 +1,55 @@
+@media screen and (min-width: 374px) {
+    .main__section-2 {
+        .section-2__project-wrapper {
+            .planet-wrapper {
+                .project-bubble-wrapper {
+                    top: 5vh;
+                    left: 18vh;
+                }
+                .project-bubble-wrapper-mars {
+                    left: 16vh;
+                }
+            }
+        }
+    }
+    .main__section-3 {
+        padding-top: 50px;
+        .section-3__wrapper {
+            .walking-guy-wrapper {
+                .walking-guy-bubble-wrapper {
+                    top: 3.5vh;
+                    left: 19vh;
+                }
+                .icons-wrapper {
+                    .icons {
+                        width: 100%;
+                        padding: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .main__section-4 {
+        .section-4__contact {
+            .contact__calling-guy-wrapper {
+                margin-right: 12em;
+            }
+            .contact__bubble-wrapper {
+                position: absolute;
+                background-image: url("../../images/cloud-clear-1.PNG");
+                background-size: 100%;
+                background-repeat: no-repeat;
+                top: 4vh;
+                left: 17vh;
+                font-size: 16px;
+                width: 14em;
+                height: 100%;
+                text-align: center;
+                z-index: -10;
+                p {
+                    padding: 0.8em 1em 0em 3.5em;
+                }
+            }
+        }
+    }
+}

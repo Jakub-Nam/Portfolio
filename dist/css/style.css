@@ -115,7 +115,7 @@ main {
       background: url("../../images/cloud-clear-3.PNG");
       background-size: 100%;
       background-repeat: no-repeat;
-      top: -20vh;
+      top: -25vh;
       right: 0px;
       font-size: 17px;
       width: 23em;
@@ -159,12 +159,12 @@ main {
         background-image: url("../../images/cloud-clear-1.PNG");
         background-size: 100%;
         background-repeat: no-repeat;
+        margin: 1em;
+        font-size: 20px;
         top: 5vh;
         left: 9vh;
-        font-size: 20px;
-        height: 90%;
         width: 11em;
-        margin: 1em; }
+        height: 90%; }
         .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars p {
           padding: 2em 0em 0em 2.8em; }
     .main__section-2 .section-2__project-wrapper .project-description-wrapper {
@@ -202,7 +202,7 @@ main {
 .main__section-3 {
   width: 90%;
   margin: auto;
-  height: 90vh; }
+  height: 100vh; }
   .main__section-3 .section-3__wrapper h2 {
     text-align: center; }
   .main__section-3 .section-3__wrapper .text-wrapper p {
@@ -238,8 +238,8 @@ main {
       background-image: url("../../images/cloud-clear-1.PNG");
       background-size: 100%;
       background-repeat: no-repeat;
-      top: 0vh;
-      left: 12vh;
+      top: 3vh;
+      left: 14vh;
       height: 100%;
       width: 13.3rem; }
       .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper p {
@@ -277,7 +277,7 @@ main {
     .main__section-4 .section-4__contact .contact__form {
       width: 60%;
       margin: 1em auto;
-      background: rgba(21, 134, 196, 0.2);
+      background: #92cdec;
       border-radius: 10px;
       padding: 0.5em 0.5em 0 0.5em;
       text-align: center; }
@@ -343,3 +343,34 @@ footer {
   footer span {
     font-size: 12px;
     overflow: visible; }
+
+@media screen and (min-width: 374px) {
+  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
+    top: 5vh;
+    left: 18vh; }
+  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
+    left: 16vh; }
+  .main__section-3 {
+    padding-top: 50px; }
+    .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+      top: 3.5vh;
+      left: 19vh; }
+    .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
+      width: 100%;
+      padding: 30px; }
+  .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
+    margin-right: 12em; }
+  .main__section-4 .section-4__contact .contact__bubble-wrapper {
+    position: absolute;
+    background-image: url("../../images/cloud-clear-1.PNG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 4vh;
+    left: 17vh;
+    font-size: 16px;
+    width: 14em;
+    height: 100%;
+    text-align: center;
+    z-index: -10; }
+    .main__section-4 .section-4__contact .contact__bubble-wrapper p {
+      padding: 0.8em 1em 0em 3.5em; } }
