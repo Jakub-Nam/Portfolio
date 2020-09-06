@@ -111,7 +111,7 @@ main {
       margin-left: 30vh; }
     .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
       position: absolute;
-      background: url(../../images/cloud-clear-3.png);
+      background: url(~/images/cloud-clear-3.png);
       background-size: 100%;
       background-repeat: no-repeat;
       top: -20vh;
@@ -276,7 +276,7 @@ main {
     .main__section-4 .section-4__contact .contact__form {
       width: 60%;
       margin: 1em auto;
-      background: rgba(8, 63, 93, 0.2);
+      background: rgba(21, 134, 196, 0.2);
       border-radius: 10px;
       padding: 0.5em 0.5em 0 0.5em;
       text-align: center; }
@@ -318,7 +318,7 @@ footer {
   width: 100%;
   margin: auto;
   text-align: center;
-  background-color: rgba(8, 63, 93, 0.15);
+  background-color: rgba(21, 134, 196, 0.2);
   font-size: 15px; }
   footer .footer__p-wrapper p {
     margin-top: 1em; }
@@ -331,7 +331,8 @@ footer {
     flex-direction: row;
     padding-top: 1em;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    text-decoration: none; }
     footer address .address__text i {
       overflow: visible;
       padding-right: 13px; }
