@@ -111,7 +111,7 @@ main {
       margin-left: 30vh; }
     .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
       position: absolute;
-      background: url("../../images/cloud-clear-3.png");
+      background: url("/images/cloud-clear-3.png");
       background-size: 100%;
       background-repeat: no-repeat;
       top: -20vh;
