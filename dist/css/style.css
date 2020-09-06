@@ -1,3 +1,96 @@
+@media screen and (min-width: 374px) {
+  .main__section-1 {
+    padding-top: 50px; }
+    .main__section-1 .section-1__first-guy-wrapper img {
+      margin-left: 30vh; }
+    .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
+      top: -140px; }
+  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
+    top: 20px;
+    left: 130px; }
+  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
+    left: 110px; }
+  body .main__section-3 {
+    padding-top: 50px; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+      top: 20px;
+      left: 130px; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
+      width: 100%;
+      padding: 30px; }
+  .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
+    display: flex;
+    justify-content: flex-start; }
+  .main__section-4 .section-4__contact .contact__bubble-wrapper {
+    top: 10px;
+    left: 100px; } }
+
+@media screen and (min-width: 375px) and (min-height: 812px) {
+  body .main__section-1 {
+    padding-top: 50px; }
+    body .main__section-1 .section-1__first-guy-wrapper img {
+      margin-left: 25vh; }
+  body .main__section-3 {
+    padding-top: 50px;
+    height: 80vh; }
+    body .main__section-3 .section-3__wrapper .text-wrapper {
+      width: 80%;
+      margin: auto; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+      top: 20px;
+      left: 130px; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
+      width: 100%;
+      padding: 30px; }
+  body .main__section-4 {
+    height: 85vh; } }
+
+@media screen and (min-width: 540px) {
+  .main__section-2 .section-2__project-wrapper {
+    width: 90%;
+    margin: auto; }
+    .main__section-2 .section-2__project-wrapper .planet-wrapper {
+      margin-left: 8vw; }
+      .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
+        top: 20px;
+        left: 130px; }
+      .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
+        left: 110px; }
+  body .main__section-3 {
+    height: 85vh; }
+    body .main__section-3 .text-wrapper {
+      width: 90%;
+      margin: auto; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+      top: 20px;
+      left: 130px; }
+    body .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
+      width: 100%;
+      padding: 30px; }
+  body .main__section-4 {
+    height: 90vh; }
+    body .main__section-4 h2 {
+      margin-bottom: 50px; }
+    body .main__section-4 .section-4__contact {
+      flex-direction: row;
+      justify-content: space-between; }
+      body .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
+        display: flex;
+        height: 40%;
+        margin-top: 140px; }
+      body .main__section-4 .section-4__contact .contact__bubble-wrapper {
+        top: 170px;
+        left: 80px;
+        font-size: 14px; }
+      body .main__section-4 .section-4__contact .contact__form {
+        width: 240px;
+        margin: 0; } }
+
+@media screen and (min-width: 700px) {
+  main {
+    width: 70%;
+    margin: auto; } }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -115,7 +208,7 @@ main {
       background: url("../../images/cloud-clear-3.PNG");
       background-size: 100%;
       background-repeat: no-repeat;
-      top: -25vh;
+      top: -140px;
       right: 0px;
       font-size: 17px;
       width: 23em;
@@ -256,10 +349,9 @@ main {
   .main__section-4 .section-4__contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     position: relative; }
     .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
-      margin-right: 10em; }
+      display: flex; }
     .main__section-4 .section-4__contact .contact__bubble-wrapper {
       position: absolute;
       background-image: url("../../images/cloud-clear-1.PNG");
@@ -290,7 +382,9 @@ main {
         .main__section-4 .section-4__contact .contact__form .form__email input,
         .main__section-4 .section-4__contact .contact__form .form__name input {
           width: 100%;
-          border: none; }
+          padding: 10px;
+          border: none;
+          border-radius: 5px; }
       .main__section-4 .section-4__contact .contact__form .form__message {
         display: flex; }
         .main__section-4 .section-4__contact .contact__form .form__message textarea {
@@ -298,7 +392,9 @@ main {
           border: none;
           height: 10em;
           width: 100%;
-          font-size: 12px; }
+          font-size: 12px;
+          padding: 10px;
+          border-radius: 5px; }
       .main__section-4 .section-4__contact .contact__form .form__submit {
         margin: 0.5em;
         text-align: center; }
@@ -343,34 +439,3 @@ footer {
   footer span {
     font-size: 12px;
     overflow: visible; }
-
-@media screen and (min-width: 374px) {
-  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper {
-    top: 5vh;
-    left: 18vh; }
-  .main__section-2 .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
-    left: 16vh; }
-  .main__section-3 {
-    padding-top: 50px; }
-    .main__section-3 .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-      top: 3.5vh;
-      left: 19vh; }
-    .main__section-3 .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
-      width: 100%;
-      padding: 30px; }
-  .main__section-4 .section-4__contact .contact__calling-guy-wrapper {
-    margin-right: 12em; }
-  .main__section-4 .section-4__contact .contact__bubble-wrapper {
-    position: absolute;
-    background-image: url("../../images/cloud-clear-1.PNG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    top: 4vh;
-    left: 17vh;
-    font-size: 16px;
-    width: 14em;
-    height: 100%;
-    text-align: center;
-    z-index: -10; }
-    .main__section-4 .section-4__contact .contact__bubble-wrapper p {
-      padding: 0.8em 1em 0em 3.5em; } }

@@ -1,24 +1,132 @@
 @media screen and (min-width: 374px) {
+    .main__section-1 {
+        padding-top: 50px;
+        .section-1__first-guy-wrapper {
+            img {
+                margin-left: 30vh;
+            }
+            .first-guy__bubble-wrapper {
+                top: -140px;
+            }
+        }
+    }
     .main__section-2 {
         .section-2__project-wrapper {
             .planet-wrapper {
                 .project-bubble-wrapper {
-                    top: 5vh;
-                    left: 18vh;
+                    top: 20px;
+                    left: 130px;
                 }
                 .project-bubble-wrapper-mars {
-                    left: 16vh;
+                    left: 110px;
                 }
             }
         }
     }
+    body {
+        .main__section-3 {
+            padding-top: 50px;
+            .section-3__wrapper {
+                .walking-guy-wrapper {
+                    .walking-guy-bubble-wrapper {
+                        top: 20px;
+                        left: 130px;
+                    }
+                    .icons-wrapper {
+                        .icons {
+                            width: 100%;
+                            padding: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .main__section-4 {
+        .section-4__contact {
+            .contact__calling-guy-wrapper {
+                display: flex;
+                justify-content: flex-start;
+            }
+            .contact__bubble-wrapper {
+                top: 10px;
+                left: 100px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 375px) and (min-height: 812px) {
+    body {
+        .main__section-1 {
+            padding-top: 50px;
+            .section-1__first-guy-wrapper {
+                img {
+                    margin-left: 25vh;
+                }
+            }
+        }
+    }
+    body {
+        .main__section-3 {
+            padding-top: 50px;
+            height: 80vh;
+            .section-3__wrapper {
+                .text-wrapper {
+                    width: 80%;
+                    margin: auto;
+                }
+                .walking-guy-wrapper {
+                    .walking-guy-bubble-wrapper {
+                        top: 20px;
+                        left: 130px;
+                    }
+                    .icons-wrapper {
+                        .icons {
+                            width: 100%;
+                            padding: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .main__section-4 {
+            height: 85vh;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 540px) {
+    .main__section-2 {
+        .section-2__project-wrapper {
+            width: 90%;
+            margin: auto;
+            .planet-wrapper {
+                margin-left: 8vw;
+
+                .project-bubble-wrapper {
+                    top: 20px;
+                    left: 130px;
+                }
+                .project-bubble-wrapper-mars {
+                    left: 110px;
+                }
+            }
+        }
+    }
+    body {
     .main__section-3 {
-        padding-top: 50px;
+        height: 85vh;
+        .text-wrapper {
+            width: 90%;
+            margin: auto;
+        }
         .section-3__wrapper {
             .walking-guy-wrapper {
                 .walking-guy-bubble-wrapper {
-                    top: 3.5vh;
-                    left: 19vh;
+                    top: 20px;
+                    left: 130px;
                 }
                 .icons-wrapper {
                     .icons {
@@ -29,27 +137,37 @@
             }
         }
     }
-    .main__section-4 {
-        .section-4__contact {
-            .contact__calling-guy-wrapper {
-                margin-right: 12em;
+    
+        .main__section-4 {
+            height: 90vh;
+            h2 {
+                margin-bottom: 50px;
             }
-            .contact__bubble-wrapper {
-                position: absolute;
-                background-image: url("../../images/cloud-clear-1.PNG");
-                background-size: 100%;
-                background-repeat: no-repeat;
-                top: 4vh;
-                left: 17vh;
-                font-size: 16px;
-                width: 14em;
-                height: 100%;
-                text-align: center;
-                z-index: -10;
-                p {
-                    padding: 0.8em 1em 0em 3.5em;
+            .section-4__contact {
+                flex-direction: row;
+                justify-content: space-between;
+                .contact__calling-guy-wrapper {
+                    display: flex;
+                    height: 40%;
+                    margin-top: 140px;
+                }
+                .contact__bubble-wrapper {
+                    top: 170px;
+                    left: 80px;
+                    font-size: 14px;
+                }
+                .contact__form {
+                    width: 240px;
+                    margin: 0;
                 }
             }
         }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    main {
+       width: 70%;
+       margin: auto;
     }
 }
