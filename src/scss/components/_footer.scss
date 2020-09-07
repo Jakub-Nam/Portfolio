@@ -1,0 +1,45 @@
+
+footer {
+    width: 100vw;
+    padding-top: 90px;
+    text-align: center;
+    color: rgb(255, 249, 249);
+    font-size: 14px;
+    .footer__wrapper {
+        background-color: rgba(11, 61, 97, 0.9);
+    }
+
+    .wrapper__p {
+        p {
+            margin-top: 1em;
+        }
+    }
+    hr {
+        border: solid 0.1px rgb(240, 39, 43);
+        width: 80%;
+        margin: 1em auto 0em auto;
+    }
+
+    address {
+        .address__text {
+            display: flex;
+            flex-direction: row;
+            padding-top: 1em;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            i {
+                overflow: visible;
+                padding-right: 13px;
+            }
+            p {
+                overflow: visible;
+                text-decoration: none;
+            }
+        }
+    }
+    span {
+        font-size: 12px;
+        overflow: visible;
+    }
+}

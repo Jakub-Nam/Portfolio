@@ -1,0 +1,249 @@
+@media screen and (min-width: 375px) {
+    header {
+        #nav-burger {
+            margin-top: 4vh;
+            margin-right: 15px;
+        }
+    }
+
+    .main__section-2 {
+        .section-2__project-wrapper {
+            .planet-wrapper {
+                .project-bubble-wrapper {
+                    top: 20px;
+                    left: 130px;
+                }
+                .project-bubble-wrapper-mars {
+                    left: 110px;
+                }
+            }
+        }
+    }
+    body {
+        .main__section-3 {
+            padding-top: 50px;
+            .section-3__wrapper {
+                .walking-guy-wrapper {
+                    .walking-guy-bubble-wrapper {
+                        top: 20px;
+                        left: 130px;
+                    }
+                    .icons-wrapper {
+                        .icons {
+                            width: 100%;
+                            padding: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main__section-4 {
+        .section-4__contact {
+            .contact__calling-guy-wrapper {
+                display: flex;
+                justify-content: flex-start;
+            }
+        }
+    }
+}
+@media screen and (min-width: 375px) and (min-height: 812px) {
+    body {
+        .main__section-3 {
+            padding-top: 50px;
+            height: 80vh;
+            .section-3__wrapper {
+                .text-wrapper {
+                    width: 80%;
+                    margin: auto;
+                }
+                .walking-guy-wrapper {
+                    .walking-guy-bubble-wrapper {
+                        top: 20px;
+                        left: 130px;
+                    }
+                    .icons-wrapper {
+                        .icons {
+                            width: 100%;
+                            padding: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        .main__section-4 {
+            height: 85vh;
+        }
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .main__section-2 {
+        .section-2__project-wrapper {
+            width: 90%;
+            margin: auto;
+            .planet-wrapper {
+                margin-left: 8vw;
+
+                .project-bubble-wrapper {
+                    top: 20px;
+                    left: 130px;
+                }
+                .project-bubble-wrapper-mars {
+                    left: 110px;
+                }
+            }
+        }
+    }
+    body {
+        .main__section-3 {
+            height: 85vh;
+            .text-wrapper {
+                width: 90%;
+                margin: auto;
+            }
+            .section-3__wrapper {
+                .walking-guy-wrapper {
+                    .walking-guy-bubble-wrapper {
+                        top: 20px;
+                        left: 130px;
+                    }
+                    .icons-wrapper {
+                        .icons {
+                            width: 100%;
+                            padding: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main__section-4 {
+            height: 90vh;
+            h2 {
+                margin-bottom: 50px;
+            }
+            .section-4__contact {
+                flex-direction: row;
+                justify-content: space-between;
+                .contact__calling-guy-wrapper {
+                    display: flex;
+                    height: 40%;
+                    margin-top: 140px;
+                }
+                .contact__bubble-wrapper {
+                    top: 170px;
+                    left: 80px;
+                    font-size: 14px;
+                }
+                .contact__form {
+                    width: 240px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        width: 90%;
+        margin: auto;
+        #nav-burger {
+            display: none;
+        }
+        .nav__div-wrapper {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            .nav__ul {
+                display: flex;
+                position: relative;
+                flex-direction: row;
+                justify-content: flex-end;
+                left: 0%;
+                top: 0vh;
+                height: 10vh;
+                li {
+                    padding-top: 0em;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    a {
+                        padding-top: 0em;
+                        margin: 0em 1.5em;
+                    }
+                }
+            }
+        }
+
+        .main__section-1 {
+            margin-top: 20vh;
+            overflow: visible;
+            height: 90vh;
+            .section-1__first-guy-wrapper {
+                img {
+                    margin-left: 25vh;
+                }
+            }
+        }
+        .main__section-3 {
+            height: 50vh;
+            .section-3__wrapper {
+                .walking-guy-wrapper {
+                    justify-content: space-around;
+
+                    .icons-wrapper {
+                        flex-direction: column;
+
+                        .icons {
+                            img {
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+                    }
+                    .walking-guy-bubble-wrapper {
+                        top: 5px;
+                        left: 200px;
+                        height: 100%;
+                        width: 13.3em;
+                        p {
+                            font-size: 14;
+                            padding: 2.4em 0em 0em 3.8em;
+                        }
+                    }
+                }
+            }
+        }
+        .main__section-4 {
+            height: 50vh;
+           
+            .section-4__contact {
+   
+                .contact__calling-guy-wrapper {
+   
+                }
+                .contact__bubble-wrapper {
+                    position: absolute;
+                    background-image: url("../../images/cloud-clear-5.PNG");
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                    top: 70px;
+                    left: 6em;
+                    font-size: 14px;
+                    width: 15em;
+                    height: 7em;
+                    height: 100%;
+                    text-align: center;
+                    z-index: -10;
+                    p {
+                        padding: 6em 2em 0em 3.5em;
+                    }
+                }
+            }
+        }
+    }
+}
