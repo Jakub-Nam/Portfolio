@@ -4,88 +4,86 @@
         text-align: center;
         padding: 15px;
     }
+}
+.section-2__project-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 
-    .section-2__project-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .planet-wrapper {
         position: relative;
+        overflow: visible;
 
-        .planet-wrapper {
-            position: relative;
-            overflow: visible;
-
-            .project-bubble-wrapper {
-                position: absolute;
-                background-image: url("../../images/cloud-2.png");
-                background-size: 100%;
-                background-repeat: no-repeat;
-                top: 25px;
-                left: 80px;
-                font-size: 20px;
-                height: 100%;
-                width: 10em;
-                margin: 1em;
-
-                p {
-                    padding: 1.6em 0em 0em 3.4em;
-                }
-            }
-            .project-bubble-wrapper-mars {
-                position: absolute;
-                background-image: url("../../images/cloud-2.png");
-                background-size: 100%;
-                background-repeat: no-repeat;
-                margin: 1em;
-                font-size: 20px;
-                top: 20px;
-                left: 45px;
-                width: 12em;
-                height: 90%;
-
-                p {
-                    padding: 2em 0em 0em 3em;
-                }
-            }
-        }
-
-        .project-description-wrapper {
-            flex-direction: column;
-            justify-content: space-around;
-            border-radius: 3px;
-            margin: auto;
+        .project-bubble-wrapper {
+            position: absolute;
+            background-image: url("../../images/cloud-2.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            top: 25px;
+            left: 80px;
+            font-size: 20px;
+            height: 100%;
+            width: 10em;
+            margin: 1em;
 
             p {
-                // box-shadow: 10px 0.5px 25px -19px #073f5d;
-                box-shadow: 10px 0.5px 25px -10px #073f5d;
-                border-radius: 1px;
-                text-align: justify;
-                width: 100%;
-                font-size: 16px;
-                padding: 1em;
-                margin-bottom: 2em;
+                padding: 1.6em 0em 0em 3.4em;
             }
+        }
+        .project-bubble-wrapper-mars {
+            position: absolute;
+            background-image: url("../../images/cloud-2.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: 1em;
+            font-size: 20px;
+            top: 20px;
+            left: 45px;
+            width: 12em;
+            height: 90%;
 
-            .description-wrapper__buttons {
-                display: flex;
-                justify-content: space-around;
-                padding-top: 1em;
-                margin-top: -3.5em;
-                position: relative;
-                z-index: 10;
-                margin-bottom: 3em;
-                button {
-                    color: white;
-                    padding: 10px 2em;
-                    opacity: 0.9;
-                    border-radius: 5px;
-                    background-color: #4f1774;
-                    border: none;
-                    font-size: 16px;
-                }
-                .mars-btn {
-                    background-color: #d40404;
-                }
+            p {
+                padding: 2em 0em 0em 3em;
+            }
+        }
+    }
+
+    .project-description-wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 3px;
+        margin: auto;
+
+        p {
+            box-shadow: 10px 0.5px 25px -10px #073f5d;
+            border-radius: 1px;
+            text-align: justify;
+            width: 100%;
+            font-size: 16px;
+            padding: 1em;
+            margin-bottom: 2em;
+        }
+
+        .description-wrapper__buttons {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 1em;
+            margin-top: -3.5em;
+            position: relative;
+            z-index: 10;
+            margin-bottom: 3em;
+            button {
+                color: white;
+                padding: 10px 2em;
+                opacity: 0.9;
+                border-radius: 5px;
+                background-color: #4f1774;
+                border: none;
+                font-size: 16px;
+            }
+            .mars-btn {
+                background-color: #d40404;
             }
         }
     }

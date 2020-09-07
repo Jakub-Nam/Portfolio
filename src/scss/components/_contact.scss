@@ -3,85 +3,86 @@
     margin: auto;
     height: 110vh;
     margin-top: 36px;
-    h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .section-4__contact {
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-4__contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .contact__calling-guy-wrapper {
         display: flex;
-        flex-direction: column;
-        position: relative;
-        .contact__calling-guy-wrapper {
+    }
+    .contact__bubble-wrapper {
+        display: block;
+        position: absolute;
+        background-image: url("../../images/cloud-5.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        top: -4.5em;
+        left: 6em;
+        font-size: 14px;
+        width: 16em;
+        height: 100%;
+        text-align: center;
+        z-index: -10;
+        p {
+            padding: 88px 35px 0px 60px;
+        }
+    }
+    .contact__form {
+        width: 60%;
+        margin: 1em auto;
+        background: #92cdec;
+        border-radius: 10px;
+        padding: 0.5em 0.5em 0 0.5em;
+        text-align: center;
+
+        h3 {
+            padding-bottom: 0.5em;
+        }
+        .form__email,
+        .form__name {
+            margin-bottom: 0.7em;
+
             display: flex;
-        }
-        .contact__bubble-wrapper {
-            position: absolute;
-            background-image: url("../../images/cloud-5.png");
-            background-size: 100%;
-            background-repeat: no-repeat;
-            top: -4.5em;
-            left: 6em;
-            font-size: 14px;
-            width: 15em;
-            height: 7em;
-            height: 100%;
-            text-align: center;
-            z-index: -10;
-            p {
-                padding: 6em 2em 0em 3.5em;
+            input {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
             }
         }
-        .contact__form {
-            width: 60%;
-            margin: 1em auto;
-            background: #92cdec;
-            border-radius: 10px;
-            padding: 0.5em 0.5em 0 0.5em;
+        .form__message {
+            display: flex;
+            textarea {
+                margin: auto;
+                border: none;
+                height: 10em;
+                width: 100%;
+                font-size: 12px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+        }
+        .form__submit {
+            margin: 0.5em;
             text-align: center;
-
-            h3 {
-                padding-bottom: 0.5em;
-            }
-            .form__email,
-            .form__name {
-                margin-bottom: 0.7em;
-
-                display: flex;
-                input {
-                    width: 100%;
-                    padding: 10px;
-                    border: none;
-                    border-radius: 5px;
-                }
-            }
-            .form__message {
-                display: flex;
-                textarea {
-                    margin: auto;
-                    border: none;
-                    height: 10em;
-                    width: 100%;
-                    font-size: 12px;
-                    padding: 10px;
-                    border-radius: 5px;
-                }
-            }
-            .form__submit {
-                margin: 0.5em;
-                text-align: center;
-                input {
-                    border: none;
-                    padding: 0.3em;
-                    font-size: 14px;
-                    border-radius: 8px;
-                    background: rgb(255, 255, 255);
-                    color: rgb(5, 5, 5);
-                    border-bottom: 2px solid #df363a;
-                }
+            input {
+                border: none;
+                padding: 0.3em;
+                font-size: 14px;
+                border-radius: 8px;
+                background: rgb(255, 255, 255);
+                color: rgb(5, 5, 5);
+                border-bottom: 2px solid #df363a;
             }
         }
     }
 }
+
 input,
 textarea {
     padding-left: 0.3em;

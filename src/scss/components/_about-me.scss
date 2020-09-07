@@ -2,62 +2,60 @@
     width: 90%;
     margin: auto;
     height: 100vh;
-
-    .section-3__wrapper {
-        h2 {
+}
+.section-3__wrapper {
+    h2 {
+        text-align: center;
+    }
+    .text-wrapper {
+        p {
+            box-shadow: 10px 0.5px 25px -19px #073f5d;
+            border-radius: 1px;
             text-align: center;
+            width: 100%;
+            font-size: 16px;
+            padding: 0.7em;
         }
-        .text-wrapper {
-            p {
-                box-shadow: 10px 0.5px 25px -19px #073f5d;
-                border-radius: 1px;
-                text-align: center;
-                width: 100%;
-                font-size: 16px;
-                padding: 0.7em;
-            }
-        }
+    }
 
-        .walking-guy-wrapper {
+    .walking-guy-wrapper {
+        position: relative;
+        overflow: visible;
+        display: flex;
+        img {
+            height: 35%;
             position: relative;
-            overflow: visible;
+            margin-left: -1.3vw;
+        }
+        .icons-wrapper {
             display: flex;
-            img {
-                height: 35%;
-                position: relative;
-                margin-left: -1.3vw;
-            }
-            .icons-wrapper {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: flex-end;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
 
-                .icons {
-                    width: 100%;
-                    padding: 20px;
-                    border-radius: 7px;
-                    img {
-                        width: 40px;
-                        height: 40px;
-                        opacity: 0.9;
-                    }
+            .icons {
+                width: 100%;
+                padding: 20px;
+                border-radius: 7px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                    opacity: 0.9;
                 }
             }
-            .walking-guy-bubble-wrapper {
-                position: absolute;
-                z-index: -10;
-                background-image: url("../../images/cloud-3.png");
-                background-size: 100%;
-                background-repeat: no-repeat;
-                top: 5px;
-                left: 85px;
-                height: 100%;
-                width: 13.3em;
-                p {
-                    font-size: 14;
-                    padding: 2.4em 0em 0em 3.8em;
-                }
+        }
+        .walking-guy-bubble-wrapper {
+            position: absolute;
+            z-index: -10;
+            background-image: url("../../images/cloud-3.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            left: 78px;
+            height: 180px;
+            width: 220px;
+            p {
+                font-size: 14;
+                padding: 35px 20px 0em 65px;
             }
         }
     }
