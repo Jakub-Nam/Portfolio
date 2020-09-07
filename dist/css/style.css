@@ -106,7 +106,7 @@ main {
     margin-top: 20px; }
     .main__section-1 .section-1__first-guy-wrapper .first-guy__bubble-wrapper {
       position: absolute;
-      background: url("../../images/cloud-1.png");
+      background: url("../../images/cloud-1.PNG");
       background-size: 60%;
       background-repeat: no-repeat;
       top: -9em;
@@ -257,7 +257,7 @@ main {
       display: flex; }
     .main__section-4 .section-4__contact .contact__bubble-wrapper {
       position: absolute;
-      background-image: url("../../images/cloud-5.PNG");
+      background-image: url("../../images/cloud-5.png");
       background-size: 100%;
       background-repeat: no-repeat;
       top: -4.5em;
@@ -477,10 +477,6 @@ footer {
     body .main__section-4 {
       height: 50vh; }
       body .main__section-4 .section-4__contact .contact__bubble-wrapper {
-        position: absolute;
-        background-image: url("../../images/cloud-clear-5.PNG");
-        background-size: 100%;
-        background-repeat: no-repeat;
         top: 70px;
         left: 6em;
         font-size: 14px;
