@@ -5,7 +5,9 @@
             margin-right: 15px;
         }
     }
-
+    .main__section-2 {
+        margin-top: 11vh;
+    }
     .section-2__project-wrapper {
         .planet-wrapper {
             .project-bubble-wrapper {
@@ -21,6 +23,7 @@
     .main__section-3 {
         padding-top: 50px;
         height: 100vh;
+        margin-top: 8vh;
     }
 
     .speaking-guy-wrapper {
@@ -36,7 +39,6 @@
     }
     .main__section-4 {
         height: 100vh;
-        margin-top: 0px;
     }
     .section-4__contact {
         .contact__calling-guy-wrapper {
@@ -170,6 +172,10 @@
             overflow: visible;
             height: 90vh;
         }
+        .main__section-2 {
+            margin-top: 9vh;
+           
+        }
         .section-1__first-guy-wrapper {
             img {
                 margin-left: 25vh;
@@ -185,6 +191,7 @@
         }
         .main__section-3 {
             height: 50vh;
+            margin-top: 9vh;
         }
 
         .speaking-guy-wrapper {
@@ -207,7 +214,7 @@
         .main__section-4 {
             height: 65vh;
             width: 70%;
-            margin-top: 50px;
+            margin-top: 12vh;
         }
 
         .section-4__contact {
