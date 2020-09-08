@@ -51,7 +51,7 @@
   height: 90vh;
   left: -100%;
   top: 10vh;
-  transition: left 0.5s ease-in-out; }
+  transition: left 0.3s ease-in-out; }
   .nav__ul li {
     padding-top: 1.5em;
     display: inline;
@@ -87,7 +87,8 @@
 
 body {
   height: 100vh;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  scroll-behavior: smooth; }
 
 main {
   display: flex;
@@ -129,7 +130,8 @@ main {
     width: 65%; }
 
 .main__section-2 {
-  padding: 0 1em; }
+  padding: 0 1em;
+  margin-top: 10vh; }
   .main__section-2 h2 {
     text-align: center;
     padding: 15px; }
@@ -189,20 +191,23 @@ main {
       position: relative;
       z-index: 10;
       margin-bottom: 3em; }
-      .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons button {
+      .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons a {
         color: white;
         padding: 10px 2em;
         border-radius: 5px;
         background-color: #4f1774;
         border: none;
-        font-size: 16px; }
-      .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons .mars-btn {
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none; }
+      .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons .mars-a {
         background-color: #d40404; }
 
 .main__section-3 {
   width: 90%;
   margin: auto;
-  height: 110vh; }
+  height: 110vh;
+  margin-top: 12vh; }
 
 h2 {
   text-align: center; }
@@ -250,7 +255,7 @@ h2 {
   width: 90%;
   margin: auto;
   height: 110vh;
-  margin-top: 36px; }
+  margin-top: 12vh; }
 
 h2 {
   text-align: center;
@@ -538,4 +543,4 @@ footer {
   body .main__section-3 {
     height: 95vh; }
   body .main__section-4 {
-    height: 85vh; } }
+    height: 75vh; } }

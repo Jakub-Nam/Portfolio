@@ -1,5 +1,6 @@
 .main__section-2 {
     padding: 0 1em;
+    margin-top: 10vh;
     h2 {
         text-align: center;
         padding: 15px;
@@ -73,15 +74,17 @@
             position: relative;
             z-index: 10;
             margin-bottom: 3em;
-            button {
+            a {
                 color: white;
                 padding: 10px 2em;
                 border-radius: 5px;
                 background-color: #4f1774;
                 border: none;
                 font-size: 16px;
+                cursor: pointer;
+                text-decoration: none;
             }
-            .mars-btn {
+            .mars-a {
                 background-color: #d40404;
             }
         }

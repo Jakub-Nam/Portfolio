@@ -23,14 +23,20 @@
                 </div>
 
                 <ul class='nav__ul'>
-                    <li class="one"><a href="#">Home</a></li>
-                    <li class="two"><a href="#">Projects</a></li>
-                    <li class="three"><a href="#">About Me</a></li>
-                    <li class="four"><a href="#">Contact</a></li>
+                    <li class="one">
+                        <a href="#home" onclick="toggleBurger()" >Home</a>
+                    </li>
+                    <li class="two">
+                        <a href="#projects" onclick="toggleBurger()">Projects</a>
+                    </li>
+                    <li class="three">
+                        <a href="#about-me" onclick="toggleBurger()">About Me</a>
+                    </li>
+                    <li class="four">
+                        <a href="#contact" onclick="toggleBurger()">Contact</a>
+                    </li>
                     <hr />
                 </ul>
-
-
             </div>
             <div class='nav__icons-wrapper'>
                 <a href="">
@@ -44,6 +50,7 @@
 
     </header>
     <main>
+        <a id="home"></a>
         <section class="main__section-1">
             <div class="section-1__first-guy-wrapper">
                 <img src="./images/first-guy.PNG" alt="first-character">
@@ -53,15 +60,16 @@
                         <br> I’m <strong>Jakub Namysł</strong> and I wanna take you on a journey!
                     </p>
                 </div>
-            </div>
-
+            </div/>
             <div class="section-1__earth-wrapper">
                 <img src="./images/earth-with-statelite.PNG" alt="first-character">
             </div>
         </section>
+        <a id="projects"></a>
         <section class="main__section-2">
             <h2>Projects</h2>
             <div class='section-2__project-wrapper'>
+
                 <div class="planet-wrapper">
                     <img src='./images/saturn.PNG'>
                     <div class="project-bubble-wrapper">
@@ -73,12 +81,10 @@
                         It allows potential customer to view the avaible product and contact the seller in order to
                         purchase of the equipment.</p>
                     <div class="description-wrapper__buttons">
-                        <button>Live</button>
-                        <button>Code</button>
+                        <a href="#">Live</a>
+                        <a href="#">Code</a>
                     </div>
                 </div>
-
-
             </div>
             <div class='section-2__wrapper'>
                 <div class='section-2__project-wrapper'>
@@ -93,12 +99,14 @@
                             Simplify filling pupils in on hours of consultations, therefore enables to save time and
                             nowadays reduces the risk of spreading COVID.</p>
                         <div class="description-wrapper__buttons ">
-                            <button class='mars-btn'>Live</button>
-                            <button class='mars-btn'>Code</button>
+                            <a href="#" class='mars-a'>Live</a>
+                            <a href="#" class='mars-a'>Code</a>
                         </div>
                     </div>
                 </div>
+             
         </section>
+        <a id="about-me"></a>
         <section class="main__section-3">
             <h2>About me</h2>
             <div class="section-3__wrapper">
@@ -120,19 +128,19 @@
                     </div>
                     <div class="speaking-guy__icons-wrapper">
                         <div class="icons">
-                            <a href="#">
+                            <a href="https://github.com/Jakub-Nam">
                                 <img src="./images/github.png" alt="running-guy">
                             </a>
                         </div>
                         <div class="icons">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/jakub-namysl-492494197/">
                                 <img src="./images/linkedIn.png" alt="running-guy">
                             </a>
-
                         </div>
                     </div>
                 </div>
         </section>
+        <a id="contact"></a>
         <section class="main__section-4">
             <h2>Contact Me</h2>
             <div class="section-4__contact">
@@ -148,7 +156,6 @@
                 <div class="contact__form">
                     <form>
                         <h3>Message</h3>
-                        <!-- <label for="email">Get in Touch</label> -->
                         <div class="form__name">
                             <input type="text" id="name" name="name" placeholder="Name">
                         </div>
@@ -162,7 +169,6 @@
                         <div class="form__submit">
                             <input type="submit" value="Submit">
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -189,9 +195,7 @@
                     <span>Jakub Namysł - 2020 - All rights reserved</span>
                 </div>
             </address>
-
         </div>
-
     </footer>
 </body>
 <script src="./src/scripts/app.js"></script>
