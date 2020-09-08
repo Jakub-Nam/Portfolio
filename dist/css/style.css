@@ -23,6 +23,18 @@
   .nav__div-wrapper h1 {
     padding: 0 1em;
     text-align: center; }
+  .nav__div-wrapper hr {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 500px;
+    height: 0.2em;
+    width: 20%;
+    margin: 0;
+    background: #df363a;
+    border: none;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out; }
   .nav__div-wrapper .two:hover ~ hr {
     transform: translateX(120%); }
   .nav__div-wrapper .three:hover ~ hr {
@@ -180,7 +192,6 @@ main {
       .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons button {
         color: white;
         padding: 10px 2em;
-        opacity: 0.9;
         border-radius: 5px;
         background-color: #4f1774;
         border: none;
@@ -191,12 +202,12 @@ main {
 .main__section-3 {
   width: 90%;
   margin: auto;
-  height: 100vh; }
+  height: 110vh; }
 
-.section-3__wrapper h2 {
+h2 {
   text-align: center; }
 
-.section-3__wrapper .text-wrapper p {
+.text-wrapper p {
   box-shadow: 10px 0.5px 25px -19px #073f5d;
   border-radius: 1px;
   text-align: center;
@@ -204,39 +215,36 @@ main {
   font-size: 16px;
   padding: 0.7em; }
 
-.section-3__wrapper .walking-guy-wrapper {
+.speaking-guy-wrapper {
   position: relative;
   overflow: visible;
-  display: flex; }
-  .section-3__wrapper .walking-guy-wrapper img {
-    height: 35%;
-    position: relative;
-    margin-left: -1.3vw; }
-  .section-3__wrapper .walking-guy-wrapper .icons-wrapper {
+  display: flex;
+  flex-direction: column; }
+  .speaking-guy-wrapper .speaking-guy__img-wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end; }
-    .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
-      width: 100%;
-      padding: 20px;
-      border-radius: 7px; }
-      .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons img {
-        width: 40px;
-        height: 40px;
-        opacity: 0.9; }
-  .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
+    justify-content: flex-end; }
+  .speaking-guy-wrapper .speaking-guy__bubble-wrapper {
     position: absolute;
     z-index: -10;
     background-image: url("../../images/cloud-3.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    left: 78px;
-    height: 180px;
-    width: 220px; }
-    .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper p {
-      font-size: 14;
-      padding: 35px 20px 0em 65px; }
+    top: -1em;
+    left: 0em;
+    font-size: 14px;
+    width: 16em;
+    height: 100%; }
+    .speaking-guy-wrapper .speaking-guy__bubble-wrapper p {
+      padding: 35px 30px 0em 35px; }
+  .speaking-guy-wrapper .speaking-guy__icons-wrapper {
+    display: flex;
+    justify-content: center; }
+    .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons {
+      text-align: center; }
+      .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons img {
+        margin: 20px 25px 0px 25px;
+        width: 40px;
+        height: 40px; }
 
 .main__section-4 {
   width: 90%;
@@ -261,7 +269,7 @@ h2 {
     background-size: 100%;
     background-repeat: no-repeat;
     top: -4.5em;
-    left: 6em;
+    left: 5.5em;
     font-size: 14px;
     width: 16em;
     height: 100%;
@@ -353,15 +361,18 @@ footer {
     top: 20px;
     left: 130px; }
   .section-2__project-wrapper .planet-wrapper .project-bubble-wrapper-mars {
-    left: 110px; }
-  body .main__section-3 {
-    padding-top: 50px; }
-  body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-    top: 10px;
-    left: 110px; }
-  body .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
-    width: 100%;
-    padding: 30px; }
+    left: 90px; }
+  .main__section-3 {
+    padding-top: 50px;
+    height: 100vh; }
+  .speaking-guy-wrapper .speaking-guy__bubble-wrapper {
+    top: -15px;
+    left: 40px; }
+  .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons {
+    width: 30%; }
+  .main__section-4 {
+    height: 100vh;
+    margin-top: 0px; }
   .section-4__contact .contact__calling-guy-wrapper {
     display: flex;
     justify-content: flex-start; } }
@@ -374,16 +385,7 @@ footer {
     left: 90px; }
   body .main__section-3 {
     padding-top: 50px;
-    height: 80vh; }
-  body .section-3__wrapper .text-wrapper {
-    width: 80%;
-    margin: auto; }
-  body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-    top: 10px;
-    left: 110px; }
-  body .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
-    width: 100%;
-    padding: 30px; }
+    height: 90vh; }
   body .main__section-4 {
     height: 85vh; } }
 
@@ -403,30 +405,20 @@ footer {
     body .text-wrapper {
       width: 90%;
       margin: auto; }
-    body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-      top: 20px;
-      left: 130px; }
-    body .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons {
-      width: 100%;
-      padding: 30px; }
+    body .speaking-guy-wrapper .speaking-guy__img-wrapper img {
+      margin-right: 100px; }
+    body .speaking-guy-wrapper .speaking-guy__bubble-wrapper {
+      top: -15px;
+      left: 100px; }
+    body .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons {
+      width: 30%; }
     body .main__section-4 {
       height: 90vh; }
     body h2 {
       margin-bottom: 50px; }
-    body .section-4__contact {
-      flex-direction: row;
-      justify-content: space-between; }
-      body .section-4__contact .contact__calling-guy-wrapper {
-        display: flex;
-        height: 40%;
-        margin-top: 140px; }
-      body .section-4__contact .contact__bubble-wrapper {
-        top: 70px;
-        left: 50px;
-        font-size: 14px; }
-      body .section-4__contact .contact__form {
-        width: 240px;
-        margin: 0; } }
+    body .section-4__contact .contact__form {
+      width: 240px;
+      margin: auto; } }
 
 @media screen and (min-width: 768px) {
   body {
@@ -470,19 +462,17 @@ footer {
         margin-left: 8vw; }
     body .main__section-3 {
       height: 50vh; }
-    body .section-3__wrapper .walking-guy-wrapper {
-      justify-content: space-around; }
-      body .section-3__wrapper .walking-guy-wrapper .icons-wrapper {
-        flex-direction: column; }
-        body .section-3__wrapper .walking-guy-wrapper .icons-wrapper .icons img {
-          width: 50px;
-          height: 50px; }
-      body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-        left: 250px; }
+    body .speaking-guy-wrapper .speaking-guy__img-wrapper img {
+      margin-right: 120px; }
+    body .speaking-guy-wrapper .speaking-guy__bubble-wrapper {
+      top: -15px;
+      left: 280px; }
+    body .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons {
+      width: 30%; }
     body .main__section-4 {
-      height: 70vh;
+      height: 65vh;
       width: 70%;
-      margin-top: 0px; }
+      margin-top: 50px; }
     body .section-4__contact {
       flex-direction: row;
       justify-content: space-between; }
@@ -498,7 +488,7 @@ footer {
 
 @media screen and (min-width: 992px) {
   .nav__div-wrapper {
-    padding: 0 0px 0 7%; }
+    padding: 0 0px 0 3%; }
   body main {
     width: 950px;
     margin: auto; }
@@ -513,12 +503,18 @@ footer {
     body .section-2__project-wrapper .project-description-wrapper .description-wrapper__buttons {
       margin-top: -1.5em; }
   body .main__section-3 {
-    height: 50vh; }
-  body .section-3__wrapper .walking-guy-wrapper {
-    width: 80%;
-    margin: auto; }
-    body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-      left: 230px; }
+    height: 50vh;
+    width: 60%; }
+  body .speaking-guy-wrapper .speaking-guy__img-wrapper img {
+    margin-right: 100px; }
+  body .speaking-guy-wrapper .speaking-guy__bubble-wrapper {
+    top: -15px;
+    left: 175px; }
+  body .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons {
+    width: 30%; }
+    body .speaking-guy-wrapper .speaking-guy__icons-wrapper .icons img {
+      width: 50px;
+      height: 50px; }
   body .main__section-4 {
     height: 55vh;
     width: 55%; }
@@ -539,11 +535,6 @@ footer {
 
 @media screen and (min-width: 1025px) {
   body .main__section-3 {
-    height: 85vh;
-    width: 60%; }
-  body .section-3__wrapper .walking-guy-wrapper {
-    width: 100%; }
-    body .section-3__wrapper .walking-guy-wrapper .walking-guy-bubble-wrapper {
-      left: 180px; }
+    height: 95vh; }
   body .main__section-4 {
     height: 85vh; } }
