@@ -324,11 +324,14 @@ textarea {
 
 footer {
   width: 100vw;
+  display: flex;
   text-align: center;
   color: #fff9f9;
-  font-size: 14px; }
+  font-size: 14px;
+  position: relative; }
   footer .footer__wrapper {
-    background-color: rgba(11, 61, 97, 0.9); }
+    background-color: rgba(11, 61, 97, 0.9);
+    width: 100%; }
   footer .wrapper__p p {
     margin-top: 1em; }
   footer hr {
