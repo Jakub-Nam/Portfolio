@@ -329,7 +329,6 @@ textarea {
 
 footer {
   width: 100vw;
-  display: block;
   text-align: center;
   color: #fff9f9;
   font-size: 14px; }
@@ -337,11 +336,12 @@ footer {
     background-color: rgba(11, 61, 97, 0.9);
     width: 100%; }
   footer .wrapper__p p {
-    margin-top: 1em; }
+    padding: 1em 0px; }
   footer hr {
     border: solid 0.1px #f0272b;
     width: 80%;
-    margin: 1em auto 0em auto; }
+    padding: 0 auto;
+    margin: 0 auto; }
   footer .address__text {
     display: flex;
     flex-direction: row;
