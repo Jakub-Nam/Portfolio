@@ -25,28 +25,6 @@
         padding: 0 1em;
         text-align: center;
     }
-    hr {
-        display: none;
-        position: absolute;
-        top: 35px;
-        left: 500px;
-        height: 0.2em;
-        width: 20%;
-        margin: 0;
-        background: #df363a;
-        border: none;
-        border-radius: 2px;
-        transition: 0.3s ease-in-out;
-    }
-    .two:hover ~ hr {
-        transform: translateX(120%);
-    }
-    .three:hover ~ hr {
-        transform: translateX(255%);
-    }
-    .four:hover ~ hr {
-        transform: translateX(385%);
-    }
 }
 
 .nav__ul {

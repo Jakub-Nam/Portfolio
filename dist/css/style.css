@@ -23,24 +23,6 @@
   .nav__div-wrapper h1 {
     padding: 0 1em;
     text-align: center; }
-  .nav__div-wrapper hr {
-    display: none;
-    position: absolute;
-    top: 35px;
-    left: 500px;
-    height: 0.2em;
-    width: 20%;
-    margin: 0;
-    background: #df363a;
-    border: none;
-    border-radius: 2px;
-    transition: 0.3s ease-in-out; }
-  .nav__div-wrapper .two:hover ~ hr {
-    transform: translateX(120%); }
-  .nav__div-wrapper .three:hover ~ hr {
-    transform: translateX(255%); }
-  .nav__div-wrapper .four:hover ~ hr {
-    transform: translateX(385%); }
 
 .nav__ul {
   display: flex;
@@ -329,6 +311,7 @@ textarea {
 
 footer {
   width: 100vw;
+  height: 165px;
   text-align: center;
   color: #fff9f9;
   font-size: 14px; }
