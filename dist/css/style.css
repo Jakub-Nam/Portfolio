@@ -236,8 +236,7 @@ h2 {
 .main__section-4 {
   width: 90%;
   margin: auto;
-  height: 110vh;
-  margin-top: 15vh; }
+  height: 110vh; }
 
 h2 {
   text-align: center;
@@ -311,7 +310,6 @@ textarea {
 
 footer {
   width: 100vw;
-  height: 165px;
   text-align: center;
   color: #fff9f9;
   font-size: 14px; }
@@ -340,7 +338,8 @@ footer {
       text-decoration: none; }
   footer span {
     font-size: 12px;
-    overflow: visible; }
+    overflow: visible;
+    padding-bottom: 6px; }
 
 @media screen and (min-width: 375px) {
   header #nav-burger {
