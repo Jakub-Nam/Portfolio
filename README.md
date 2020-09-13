@@ -6,5 +6,10 @@ Below you can see the technologies I used to create my portfolio
 
 Mobile view
 
-<img src='images/mobile/first-view.jpg' width="20%"> <img src='images/mobile/menu.jpg' width="20%"> <img src='images/mobile/saturn.jpg' width="20%"> <img src='images/mobile/mars.jpg' width="20%"> <img src='images/mobile/about.jpg' width="20%">
-<img src='images/mobile/contact.JPG'> <img src='images/mobile/footer.jpg' width="20%"> 
+<img src='images/mobile/first-view.jpg' width="20%">   <img src='images/mobile/menu.jpg' width="20%">  
+
+<img src='images/mobile/saturn.jpg' width="20%">   <img src='images/mobile/mars.jpg' width="20%"> 
+
+<img src='images/mobile/about.jpg' width="20%">  <img src='images/mobile/contact.JPG'>  
+
+<img src='images/mobile/footer.jpg' width="20%"> 
