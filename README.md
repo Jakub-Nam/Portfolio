@@ -1,5 +1,4 @@
-
-https://jakub-nam.github.io/Portfolio/
+Link: https://jakub-nam.github.io/Portfolio/
 
 Below you can see the technologies I used to create my portfolio
 
