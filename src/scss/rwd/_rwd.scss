@@ -170,7 +170,6 @@
         }
         .main__section-2 {
             margin-top: 9vh;
-           
         }
         .section-1__first-guy-wrapper {
             img {
@@ -263,7 +262,7 @@
             height: 50vh;
             width: 60%;
         }
-       
+
         .speaking-guy-wrapper {
             .speaking-guy__img-wrapper {
                 img {
@@ -311,6 +310,9 @@
 }
 @media screen and (min-width: 1025px) {
     body {
+        .nav__div-wrapper {
+            height: 10vh;
+        }
         .main__section-3 {
             height: 95vh;
         }

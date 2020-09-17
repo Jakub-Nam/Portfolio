@@ -528,6 +528,8 @@ footer {
     padding-top: 0px; } }
 
 @media screen and (min-width: 1025px) {
+  body .nav__div-wrapper {
+    height: 10vh; }
   body .main__section-3 {
     height: 95vh; }
   body .main__section-4 {
