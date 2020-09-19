@@ -214,7 +214,7 @@ h2 {
     position: absolute;
     z-index: -10;
     background-image: url("../../images/cloud-3.png");
-    background-size: 100%;
+    background-size: 105%;
     background-repeat: no-repeat;
     top: -1em;
     left: 0em;
@@ -222,7 +222,7 @@ h2 {
     width: 16em;
     height: 100%; }
     .speaking-guy-wrapper .speaking-guy__bubble-wrapper p {
-      padding: 40px 40px 0em 35px; }
+      padding: 40px 45px 0px 33px; }
   .speaking-guy-wrapper .speaking-guy__icons-wrapper {
     display: flex;
     justify-content: center; }
@@ -377,8 +377,12 @@ footer {
   body .main__section-3 {
     padding-top: 50px;
     height: 90vh; }
+  body .speaking-guy-wrapper .speaking-guy__bubble-wrapper p {
+    padding: 38px 45px 0px 33px; }
   body .main__section-4 {
-    height: 85vh; } }
+    height: 85vh; }
+  body .section-4__contact .contact__bubble-wrapper p {
+    padding: 90px 35px 0px 60px; } }
 
 @media screen and (min-width: 540px) and (max-width: 738px) {
   .section-2__project-wrapper {
@@ -531,6 +535,6 @@ footer {
   body .nav__div-wrapper {
     height: 10vh; }
   body .main__section-3 {
-    height: 95vh; }
+    height: 65vh; }
   body .main__section-4 {
-    height: 75vh; } }
+    height: 60vh; } }

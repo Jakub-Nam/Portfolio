@@ -65,9 +65,22 @@
             padding-top: 50px;
             height: 90vh;
         }
-
+        .speaking-guy-wrapper {
+            .speaking-guy__bubble-wrapper {
+                p {
+                    padding: 38px 45px 0px 33px;
+                }
+            }
+        }
         .main__section-4 {
             height: 85vh;
+        }
+        .section-4__contact {
+            .contact__bubble-wrapper {
+                p {
+                    padding: 90px 35px 0px 60px;
+                }
+            }
         }
     }
 }
@@ -314,10 +327,10 @@
             height: 10vh;
         }
         .main__section-3 {
-            height: 95vh;
+            height: 65vh;
         }
         .main__section-4 {
-            height: 75vh;
+            height: 60vh;
         }
     }
 }
