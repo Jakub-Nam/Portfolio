@@ -222,7 +222,7 @@ h2 {
     width: 16em;
     height: 100%; }
     .speaking-guy-wrapper .speaking-guy__bubble-wrapper p {
-      padding: 40px 45px 0px 33px; }
+      padding: 37px 45px 0px 33px; }
   .speaking-guy-wrapper .speaking-guy__icons-wrapper {
     display: flex;
     justify-content: center; }
@@ -263,7 +263,7 @@ h2 {
     text-align: center;
     z-index: -10; }
     .section-4__contact .contact__bubble-wrapper p {
-      padding: 95px 35px 0px 60px; }
+      padding: 88px 35px 0px 60px; }
   .section-4__contact .contact__form {
     width: 60%;
     margin: 1em auto;
