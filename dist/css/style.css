@@ -543,6 +543,8 @@ footer {
     height: 10vh; }
   body .nav__ul-toggle {
     transform: translateX(0%); }
+  body .nav__icons-wrapper {
+    display: none; }
   body .main__section-3 {
     height: 65vh; }
   body .main__section-4 {
