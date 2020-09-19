@@ -75,12 +75,10 @@
     width: 100%;
     height: 8%;
     transition: transform 0.8s ease-in-out;
-    // transition: transform 0.8s ease-in-out 0.4s;
-    // -webkit-transform: 0.8s ease-in-out 0.4s;
-    // -moz-transform: 0.8s ease-in-out 0.4s;
-    // -ms-transform: 0.8s ease-in-out 0.4s;
-    // -o-transform: 0.8s ease-in-out 0.4s;
-    // transform: 0.8s ease-in-out 0.4s;
+    -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    -moz-transition:  transform 0.8s ease-in-out;
+    -o-transition: transform 0.8s ease-in-out;
+    transition: transform 0.8s ease-in-out;
     a {
         text-decoration: none;
         color: black;
@@ -92,5 +90,9 @@
 }
 
 .nav__icons-wrapper-toggle {
+    -webkit-transform: translateY(10vh);
+    -moz-transform: translateY(10vh);
+    -ms-transform: translateY(10vh);
+    -o-transform: translateY(10vh);
     transform: translateY(10vh);
 }
