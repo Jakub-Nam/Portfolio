@@ -323,8 +323,18 @@
 }
 @media screen and (min-width: 1025px) {
     body {
+        .nav__ul {
+            li {
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
         .nav__div-wrapper {
             height: 10vh;
+        }
+        .nav__ul-toggle {
+            transform: translateX(0%);
         }
         .main__section-3 {
             height: 65vh;

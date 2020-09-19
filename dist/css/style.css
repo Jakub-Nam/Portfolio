@@ -537,8 +537,12 @@ footer {
     padding-top: 0px; } }
 
 @media screen and (min-width: 1025px) {
+  body .nav__ul li a {
+    font-size: 22px; }
   body .nav__div-wrapper {
     height: 10vh; }
+  body .nav__ul-toggle {
+    transform: translateX(0%); }
   body .main__section-3 {
     height: 65vh; }
   body .main__section-4 {
