@@ -7,7 +7,7 @@
 
 .nav__div-wrapper {
   overflow: visible;
-  display: flex;
+  display: absolute;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -52,8 +52,8 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: -110%;
-  border-radius: 0.7em 0.7em 0 0;
+  bottom: -10%;
+  border-radius: 0.7em 0.7em 0em 0em;
   width: 100%;
   height: 8%;
   background: rgba(146, 205, 236, 0.5);
