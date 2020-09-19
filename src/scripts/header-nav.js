@@ -1,11 +1,7 @@
 const burger = document.querySelector('#nav-burger');
 const navUl = document.querySelector('.nav__ul');
-const iconsNav = document.querySelector('.nav__icons-wrapper');
-
-function toggleBurger() {
-    navUl.classList.toggle('nav__ul-toggle');
-    iconsNav.classList.toggle('nav__icons-wrapper-toggle');
-}
+const navIcons = document.querySelector('.nav__icons-wrapper');
+let menuOpen = false;
 
 navUl.addEventListener('click', event => {
     let target = event.target;
@@ -19,3 +15,8 @@ navUl.addEventListener('click', event => {
 burger.addEventListener('click', () => {
     toggleBurger();
 })
+
+function toggleBurger() {
+    navUl.classList.toggle('nav__ul-toggle');
+    navIcons.classList.toggle('nav__icons-wrapper-toggle');
+}
