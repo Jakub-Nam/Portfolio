@@ -92,9 +92,7 @@
 }
 
 .nav__icons-wrapper-toggle {
-    -webkit-transform: translateY(10vh);
-   
-    -ms-transform: translateY(10vh);
-
-        transform: translateY(10vh);
+    // -webkit-transform: translateY(10vh);
+    // -ms-transform: translateY(10vh);
+    transform: translateY(100%);
 }
