@@ -429,6 +429,13 @@ footer {
   body {
     width: 100%;
     margin: auto; }
+    body .nav__ul {
+      align-items: center; }
+      body .nav__ul .li-items {
+        padding-top: 0px; }
+        body .nav__ul .li-items a {
+          padding-top: 0px;
+          font-size: 17px; }
     body main {
       width: 100%; }
     body #nav-burger {
