@@ -59,18 +59,26 @@
 .nav__ul-toggle {
     transform: translateX(-100%);
 }
-
+.nav-icons {
+    position: relative;
+}
 .nav__icons-wrapper {
     border-radius: 0.7em 0.7em 0em 0em;
     background: rgba(146, 205, 236, 0.5);
     display: flex;
     position: absolute;
     justify-content: center;
+    // align-self: flex-end;
     bottom: 0px;
     width: 100%;
     height: 8%;
     transition: transform 0.8s ease-in-out;
     transition-delay: 0.5s;
+    // -webkit-transition: -webkit-transform 0.8s ease-in-out;
+    // transition: -webkit-transform 0.8s ease-in-out;
+    // -o-transition: transform 0.8s ease-in-out;
+    // transition: transform 0.8s ease-in-out;
+    // transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
     a {
         text-decoration: none;
         color: black;
@@ -80,3 +88,7 @@
         padding-right: 2em;
     }
 }
+
+// .nav__icons-wrapper-toggle {
+//     transform: translateY(-110%);
+// }

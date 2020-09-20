@@ -54,6 +54,9 @@
 .nav__ul-toggle {
   transform: translateX(-100%); }
 
+.nav-icons {
+  position: relative; }
+
 .nav__icons-wrapper {
   border-radius: 0.7em 0.7em 0em 0em;
   background: rgba(146, 205, 236, 0.5);
