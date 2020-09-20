@@ -69,7 +69,7 @@
     position: absolute;
     justify-content: center;
     // align-self: flex-end;
-    bottom: 0px;
+    bottom: 0vh;
     width: 100%;
     height: 8%;
     transition: transform 0.8s ease-in-out;
@@ -89,6 +89,6 @@
     }
 }
 
-// .nav__icons-wrapper-toggle {
-//     transform: translateY(-110%);
-// }
+.nav__icons-wrapper-toggle {
+    transform: translateY(10vh);
+}

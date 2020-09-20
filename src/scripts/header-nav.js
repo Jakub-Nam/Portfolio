@@ -17,6 +17,6 @@ burger.addEventListener('click', () => {
 
 function toggleBurger() {
     navUl.classList.toggle('nav__ul-toggle');
-    // navIcons.classList.toggle('.nav__icons-wrapper-toggle');
+    navIcons.classList.toggle('nav__icons-wrapper-toggle');
 
 }
