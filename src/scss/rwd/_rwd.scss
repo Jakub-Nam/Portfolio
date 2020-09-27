@@ -146,14 +146,17 @@
             align-items: center;
             .li-items {
                 padding-top: 0px;
-             
 
                 a {
                     padding-top: 0px;
                     font-size: 17px;
                 }
             }
+            .nav__icons-wrapper {
+                display: none;
+            }
         }
+
         width: 100%;
         margin: auto;
         main {
@@ -162,6 +165,7 @@
         #nav-burger {
             display: none;
         }
+
         .nav__div-wrapper {
             overflow: hidden;
             width: 100%;
@@ -189,9 +193,6 @@
                     margin: 0em 1.5em;
                 }
             }
-        }
-        .nav__icons-wrapper {
-            display: none;
         }
         .main__section-1 {
             margin-top: 10vh;
@@ -351,8 +352,6 @@
             height: 10vh;
         }
 
-       
-        
         .main__section-3 {
             height: 85vh;
         }
